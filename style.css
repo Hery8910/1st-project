@@ -1,0 +1,162 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background 1 als backup */
+  background: rgb(74, 202, 187);
+  background: linear-gradient(
+    180deg,
+    rgba(74, 202, 187, 1) 0%,
+    rgba(255, 255, 255, 1) 36%
+  );
+}
+
+.top {
+  display: flex;
+  margin: 50px 30px 200px 20px;
+  background-image: url(./image/Cultura-De-la-Historia-3.jpg);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.main-nav {
+  /* z-index position axe Z */
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  left: 1px;
+  padding: 5px 1px;
+  margin: 10px 10px 10px 650px;
+  z-index: 100;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 20px #4acabb, 0px 0px 10px rgba(0, 0, 0, 0.721);
+  background-color: #4acabb86;
+}
+
+a {
+  color: #000000;
+  text-shadow: 0px 5px 15px rgb(0, 0, 0);
+  padding: 10px;
+  font-weight: 900;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: "Sarabun", sans-serif;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+  transition: 1s;
+}
+
+h1 {
+  font-family: "Amita", serif;
+  font-size: 250px;
+  color: #000000;
+  text-shadow: 0px 5px 10px rgb(0, 0, 0);
+  margin: 20px 30px 10px 20px;
+}
+
+h2 {
+  font-family: "Amita", serif;
+  font-size: 70px;
+  color: #000000;
+  text-shadow: 0px 5px 10px rgb(0, 0, 0);
+  margin: 235px 10px 10px 1px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Amita", serif;
+  font-size: 70px;
+  color: #000000;
+  text-shadow: 0px 10px 15px rgb(229, 229, 229);
+  margin: 150px auto 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.header {
+  font-family: "Amita", serif;
+  font-size: 80px;
+  color: #000000;
+  text-shadow: 0px 10px 15px rgb(229, 229, 229);
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+p {
+  font-family: "Sarabun", sans-serif;
+  width: 1140px;
+  margin: 10px auto;
+  font-size: 30px;
+  color: #000000;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  padding: 10px 0px 10px 15px;
+}
+
+h4 > a {
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  color: #000000;
+  text-shadow: 0px 5px 15px rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 10px;
+  width: 150px;
+  margin: 60px;
+  box-shadow: inset 0px 0px 10px #4acabb, 0px 0px 10px rgba(0, 0, 0, 0.721);
+  /* background: rgb(255, 255, 255); */
+  /* background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(74, 202, 187, 1) 100%
+  ); */
+}
+
+.mehr-erfahren:hover {
+  transform: scale(1.1);
+  transition: 1s ease-in-out;
+}
+
+h4 {
+  width: 50%;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.img-colage {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px black;
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.img-colage img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 8;
+  transition: 1s ease-in-out;
+  border-radius: 10px;
+}
+
+.img-colage img:hover {
+  width: 1000px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+.solo-img {
+  border-radius: 10px;
+  width: 1000px;
+  height: 600px;
+  margin: 30px 250px;
+  box-shadow: 0px 0px 10px black;
+}
+h6 {
+  font-size: 20px;
+  background-color: #00000084;
+  padding: 15px;
+  border-radius: 5px;
+}
